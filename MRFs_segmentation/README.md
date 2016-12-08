@@ -5,8 +5,8 @@ All rights reserved.
 
 Description
 -----------
-The project aims at performing segmentation of images using an MRF process, a simulated annealing.  Depending on the script, the algorithms use Metropolis dynamics or Gibbs sampling.
-The last application estimates image texture and performs the segmentation of urban area and countryside.
+The project aims at performing segmentation of images using an MRF process and simulated annealing.  Depending on the script, the algorithms use Metropolis dynamics or Gibbs sampling.
+The last application estimates image textures and performs the segmentation of urban area and countryside.
 
 Usage
 -----
@@ -16,13 +16,14 @@ Algorithms
 ----------
 The following approaches have been chosen:
 - Step 1: 
-	a. segmentation.m
+	
+a. segmentation.m
 The classes to be segmented have a pre-defined mean and variance. The Metropolis dynamic is combined with a simulated annealing algorithm in order to reach the right segmentation. A Potts model in a 4-connexity neighborhood is used.
 	
-	b. segmentation_8.m
+b. segmentation_8.m
 Same algorithm but with a 8-connexity neighborhood.
 	
-	c. segmentation_Gibbs.m
+c. segmentation_Gibbs.m
 The dynamic for the choice of the new pixel class changes from Metropolis to a Gibbs sampling method. 
 	
 - Step 2: segmentation_supervisee.m
@@ -30,10 +31,11 @@ Now, the segmentation is supervised. The operator choses squares in the image so
 	
 	
 - Step 3: 
-	a. debruitage_1.m
+	
+a. debruitage_1.m
 Uses the previous algorithm to perform denoising in an image. It assigns the mean of the class considered to the pixels.
 
-	b. debruitage_2.m
+b. debruitage_2.m
 Improvement of the previous version using a markovian gaussian model.
 
 - Step 4:
