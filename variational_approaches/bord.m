@@ -1,5 +1,6 @@
 function [ B ] = bord( A, d )
-%BORD extension de l'image A par reflexion pour d pixels
+% Gweltaz Lever, ISAE Supaero, All rights reserved.
+% BORD extension de l'image A par reflexion pour d pixels
 
 [m,n]=size(A);
 % On cree la matrice B de la bonne taille

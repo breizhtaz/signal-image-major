@@ -1,5 +1,5 @@
 function [ ct ] = cfunction( t , alpha, n )
-%CFUNCTION calcule la valeur de la fonction c
+% CFUNCTION calcule la valeur de la fonction c
 % alpha un parametre de la fonction c
 % le parametre n determine la forme de la fonction decroissante
 

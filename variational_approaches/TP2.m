@@ -4,6 +4,8 @@
 %                                    TP2                                  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% Gweltaz Lever, ISAE Supaero, All rights reserved.
+
 clear all;
 close all;
 clc
